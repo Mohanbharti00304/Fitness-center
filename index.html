@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boom Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sofia&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*css reset*/
+    body {
+        font-family: 'Sofia', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("woman-2260736__340.jpg");
+    }
+
+    .left {
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        display: inline-block;
+
+
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 60px auto;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 80px;
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .left img {
+        width: 133px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 23px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .btn {
+        font-family: 'Sofia', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(150, 167, 251);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 90px 60px;
+        padding: 35px 100px;
+        width: 40%;
+        border-radius: 20px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 6px;
+        margin: 12px auto;
+        border: 2px solid #9188d9;
+        font-size: 17px;
+        border-radius: 15px;
+        font-family: 'Sofia', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 65%;
+        margin: 19px auto
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="istockphoto-938950178-170667a.jpg" alt="">
+            <div>Boom Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of delhi now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone no.">
+
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
